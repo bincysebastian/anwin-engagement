@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="840" height="800" viewBox="0 0 840 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Heart backdrop" clip-path="url(#clip0_0_5)">
+<path id="Paper heart" d="M430.669 159.925C316.968 -43.5185 66.9448 3.20111 48.5446 213.516C30.589 418.75 218.472 634.826 375.202 793.917C557.178 664.459 779.727 484.291 797.683 279.057C816.083 68.7422 577.971 -20.6837 430.669 159.925Z" fill="#EDD5D0"/>
+</g>
+<defs>
+<clipPath id="clip0_0_5">
+<rect width="840" height="800" fill="white"/>
+</clipPath>
+</defs>
+</svg>

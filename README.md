@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anwin & Bia — Engagement Website
 
-## Getting Started
+Editorial engagement invitation built with Next.js, Tailwind CSS, and Framer Motion. Desktop layout follows Figma frame `29:3` (Final — Engagement); mobile spacing adapts from the wedding mobile frame `1:2`. Motion references the [Wedfully Framer template](https://wonderful-simplicity-839879.framer.app/).
 
-First, run the development server:
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## RSVP → Google Forms
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Guest RSVPs POST to `/api/rsvp`, which forwards to a **separate** Google Form (not the wedding site form). Copy `.env.example` to `.env.local` and set `GOOGLE_FORM_ID` plus `GF_ENTRY_*` from your form’s pre-filled link.
 
-## Learn More
+Answer labels must match:
 
-To learn more about Next.js, take a look at the following resources:
+- Attending: `Yes` / `No`
+- Total headcount (`GF_ENTRY_HEADCOUNT`): a number — total family members attending including the guest (1–20), `0` when declined
+- Additional guest (optional, legacy `GF_ENTRY_PLUS_ONE`): `Yes` when headcount is above 1, otherwise `No`
+- Side: `Bia's Side` / `Anwin's Side` / `Both Sides`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Until env vars are set, the API returns `503` with a clear configuration message.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Images
 
-## Deploy on Vercel
+Photos and icons live under `public/images/`. Copy and paths are in `lib/content.ts`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm start
+```
+
+Add the same environment variables on your host (e.g. Vercel).
