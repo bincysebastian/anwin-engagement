@@ -6,7 +6,7 @@ import { site } from "@/lib/content";
 
 type Remaining = { days: number; hours: number; minutes: number; seconds: number };
 
-const target = new Date(site.weddingStart).getTime();
+const target = new Date(site.engagementStart).getTime();
 
 function remaining(now: number): Remaining {
   const total = Math.max(0, Math.floor((target - now) / 1000));

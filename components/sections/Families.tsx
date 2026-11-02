@@ -5,7 +5,7 @@ const label =
   "text-[10px] font-semibold uppercase leading-[1.7] lg:text-[13px] lg:font-bold lg:leading-[18px] lg:tracking-[2px]";
 const script = "font-script text-[20px] leading-[1.4] lg:text-[24px] lg:leading-normal";
 const house = "text-[12px] leading-[1.65] lg:text-[14px] lg:font-bold lg:leading-[1.6]";
-const name = "font-display leading-[1.12] lg:text-[40px] lg:font-bold lg:leading-normal";
+const name = "font-display text-[32px] font-bold leading-[1.15] lg:text-[52px] lg:leading-[1.2]";
 
 export function Families() {
   return (

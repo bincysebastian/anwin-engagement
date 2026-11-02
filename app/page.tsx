@@ -7,7 +7,7 @@ import { Families } from "@/components/sections/Families";
 import { Hero } from "@/components/sections/Hero";
 import { OurStory } from "@/components/sections/OurStory";
 import { Rsvp } from "@/components/sections/Rsvp";
-import { WeddingDay } from "@/components/sections/WeddingDay";
+import { EngagementDay } from "@/components/sections/EngagementDay";
 import { WithLove } from "@/components/sections/WithLove";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
         <Hero />
         <DateJourney />
         <Families />
-        <WeddingDay />
+        <EngagementDay />
         <OurStory />
         <DressCode />
         <Countdown />

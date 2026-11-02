@@ -9,12 +9,12 @@ export const site = {
   subtitle: "Together, beneath the sky",
   bride: "Bia",
   groom: "Anwin",
-  /** Editorial / invitation card date (wedding). */
-  weddingDateShort: "28 DECEMBER 2026",
+  /** Editorial / invitation card date (engagement). */
+  engagementDateShort: "28 DECEMBER 2026",
   church: "St. Thomas Syro-Malabar Church, Arunapuram, Pala",
   invitationTitle: "An Afternoon Blessed with Love",
   /** Engagement countdown target (IST) — December 28, 2026 per Figma editorial. */
-  weddingStart: "2026-12-28T00:00:00+05:30",
+  engagementStart: "2026-12-28T00:00:00+05:30",
   footerDate: "28 · 12 · 2026",
 };
 
@@ -49,7 +49,7 @@ export const families = {
   parents: "Mrs. Lijimol James and Mr. Jacob Sebastian",
   brideHouse: "Ganapathiplackal house, Thodanal P.O, Pala, Kottayam",
   requestLines: [
-    "request the pleasure of your gracious presence at the marriage of our",
+    "request the pleasure of your gracious presence at the betrothal of our",
     "beloved daughter",
   ],
   bride: "Bia Maria Jacob",
@@ -74,15 +74,16 @@ export const warmestWishes = {
   title: "With Love and Joy",
   coupleLines: ["Bia Maria Jacob", "Anwin Sony"],
   lines: [
-    "We would like to invite you to celebrate our wedding day with us.",
-    "Your presence would make our special day even more meaningful. We hope you can join us as we begin this beautiful journey together. WITH LOVE,",
+    "We would like to invite you to celebrate our engagement day with us.",
+    "Your presence would make our special day even more meaningful. We hope you can join us as we begin this beautiful journey together.",
+    "WITH LOVE",
   ],
 };
 
 export const colourCode = {
   title: "Guest Dress  Colour Code",
   palette: "Shades of Pink",
-  copy: "We would love to see you in Kerala traditional attire that reflects a South Indian wedding.",
+  copy: "We would love to see you in Kerala traditional attire that reflects a South Indian engagement celebration.",
 };
 
 export const rsvpCopy = {
@@ -117,7 +118,7 @@ export const images = {
   handDrawnHeart: `${F}/hand-drawn-heart.svg`,
   dayVenue: `${F}/day-venue-engagement.png`,
   dayVenueMask: `${F}/day-venue-mask.svg`,
-  story2016: `${F}/story-2016-engagement.png`,
+  story2016: `${P}/side-1.jpg`,
   story2026: `${F}/story-2026-engagement.png`,
   withLovePhoto: `${F}/with-love-couple.png`,
   botanicalLeft: `${F}/botanical-left.svg`,
@@ -155,8 +156,8 @@ export const storyChapters: {
     copy:
       "It all began with a simple meeting in 2016. Little did we know that this ordinary moment would become the beginning of a story that life would beautifully bring back to us.",
     image: images.story2016,
-    crop: { left: 0, top: -11.44, width: 100, height: 171.54 },
-    mobileCrop: { left: 0, top: -11.44, width: 100, height: 171.54 },
+    crop: { left: 0, top: -74.2, width: 115, height: 197.27 },
+    mobileCrop: { left: 0, top: -74.2, width: 115, height: 197.27 },
     position: 161.25 / 660,
   },
   {
@@ -202,7 +203,7 @@ export const itineraryStops: {
       { label: "Engagement Ceremony", value: "12:00 pm" },
       { label: "Food & Photographs", value: "1:30 pm" },
     ],
-    image: `${F}/day-ceremony.png`,
+    image: `${F}/day-ceremony-engagement.jpg`,
   },
 ];
 

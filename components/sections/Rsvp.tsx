@@ -201,7 +201,7 @@ export function Rsvp() {
               className="absolute bottom-0 left-0 hidden h-[56%] w-full lg:block"
             />
             <div className="relative flex flex-col gap-[10px] text-cream lg:gap-0">
-              <p className="text-[10px] lg:text-[12px]">{site.weddingDateShort}</p>
+              <p className="text-[10px] lg:text-[12px]">{site.engagementDateShort}</p>
               <p className="font-display text-[36px] leading-[1.12] lg:text-[58px] lg:leading-[1.15]">
                 {site.invitationTitle}
               </p>

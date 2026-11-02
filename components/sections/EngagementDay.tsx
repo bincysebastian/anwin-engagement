@@ -69,7 +69,7 @@ function StopCard({ stop, index, total }: { stop: Stop; index: number; total: nu
   );
 }
 
-export function WeddingDay() {
+export function EngagementDay() {
   return (
     <section id="the-day" className="bg-sand px-6 py-16 lg:p-[120px]">
       <div className="mx-auto flex max-w-[1200px] flex-col gap-8 lg:gap-16">
