@@ -15,6 +15,16 @@
       "service": "anwin-engagement"
     }
   ],
+  // RSVP Google Form; .env.local is gitignored, so these are not available on Cloudflare otherwise
+  "vars": {
+    "GOOGLE_FORM_ID": "1FAIpQLSenWwfs6jF2O4QZclciTTasy0kURJxoxZng21jNsLLyH57DDQ",
+    "GF_ENTRY_ATTENDING": "entry.1376976411",
+    "GF_ENTRY_FIRST_NAME": "entry.1905294028",
+    "GF_ENTRY_LAST_NAME": "entry.199010292",
+    "GF_ENTRY_MOBILE": "entry.603539057",
+    "GF_ENTRY_HEADCOUNT": "entry.134544426",
+    "GF_ENTRY_SIDE": "entry.1049304567"
+  },
   "images": {
     "binding": "IMAGES"
   },
