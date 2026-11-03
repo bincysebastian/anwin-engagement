@@ -203,7 +203,7 @@ export const itineraryStops: {
       { label: "Engagement Ceremony", value: "12:00 pm" },
       { label: "Food & Photographs", value: "1:30 pm" },
     ],
-    image: `${F}/day-ceremony-engagement.jpg`,
+    image: `${F}/day-ceremony-engagement.png`,
   },
 ];
 
