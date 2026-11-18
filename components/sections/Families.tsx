@@ -45,7 +45,11 @@ export function Families() {
 
         <Reveal className="flex flex-col items-center" delay={0.15}>
           <p className={`mt-6 lg:mt-8 ${script}`}>{f.groomParents}</p>
-          <p className={`mt-4 ${script}`}>{f.groomGrandparents}</p>
+          <div className={`mt-4 ${script}`}>
+            {f.groomGrandparents.map((line) => (
+              <p key={line}>{line}</p>
+            ))}
+          </div>
           <p className={`mt-6 lg:mt-10 ${house}`}>{f.groomHouse}</p>
         </Reveal>
       </div>

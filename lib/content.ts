@@ -56,7 +56,11 @@ export const families = {
   joiner: "With",
   groom: "Anwin Varghese Sony",
   groomParents: "S/o Late Mr. Sony Varghese & Mrs. Jolly Sony",
-  groomGrandparents: "Grand S/o Late Mr. Varghese Koippally & Late Mrs. Aleyamma Varghese",
+  groomGrandparents: [
+    "Grand S/o Late Mr. K C Varghese & Late Mrs. Aleyamma Varghese",
+    "&",
+    "Late Mr. PK Joseph Palachuvattil & Aliyamma Joseph",
+  ],
   groomHouse: "Kappil Koippally House, Punnakunnam, Alappuzha",
 };
 
